@@ -1,11 +1,5 @@
-@extends('layouts.app')
-@section('title', 'Home Page')
-
-@section('content')
-
-
-
-    <!-- Home Slider -->
+<x-app-layout title="Home">
+      <!-- Home Slider -->
     <section class="hero-slider">
       <!-- Carousel wrapper -->
       <div class="hero-slides">
@@ -1012,6 +1006,11 @@
       <!--/ New Cars -->
     </main>
 
+        @section('footerLinks')
+            @parent
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+    @endsection
+</x-app-layout>
+    
 
-
-@endsection
