@@ -1,14 +1,5 @@
-<x-base-layout title="Signup" bodyClass="page-signup">
+<x-guest-layout title="Signup" bodyClass="page-signup">
 
-<main>
-   <div class="container-small page-login">
-     <div class="flex" style="gap: 5rem">
-       <div class="auth-page-form">
-         <div class="text-center">
-           <a href="/">
-             <img src="/img/logoipsum-265.svg" alt="" />
-           </a>
-         </div>
          <h1 class="auth-page-title">Signup</h1>
 
          <form action="" method="post">
@@ -32,22 +23,10 @@
              <input type="text" placeholder="Phone" />
            </div>
            <button class="btn btn-primary btn-login w-full">Register</button>
+           </form>
+          <x-slot:footerLink>
+            Already have an account? -
+            <a href="/login.html"> Click here to login</a>
+          </x-slot:footerLink>
 
-           <div class="grid grid-cols-2 gap-1 social-auth-buttons">
-
-              <x-google-button />
-              <x-fb-button />
-           </div>
-           <div class="login-text-dont-have-account">
-             Already have an account? -
-             <a href="/login.html"> Click here to login </a>
-           </div>
-         </form>
-       </div>
-       <div class="auth-page-image">
-         <img src="/img/car-png-39071.png" alt="" class="img-responsive" />
-       </div>
-     </div>
-   </div>
- </main>
-</x-base-layout>
+</x-guest-layout>
