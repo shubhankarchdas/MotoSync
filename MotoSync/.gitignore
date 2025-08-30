@@ -22,3 +22,109 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+
+
+### Laravel ###
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+
+# Laravel 5 & Lumen specific with changed public path
+public_html/storage
+public_html/hot
+
+storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+/.vagrant
+.phpunit.result.cache
+
+
+# Laravel
+/vendor/
+/node_modules/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/framework/cache/data/
+/storage/framework/sessions/
+/storage/framework/views/
+/bootstrap/cache/
+
+# Environment files (CRITICAL - NEVER COMMIT THESE)
+.env
+.env.*.local
+.env.local
+.env.production
+.env.testing
+
+# PHP
+.phpunit.result.cache
+.php-cs-fixer.cache
+.phpunit.cache
+
+# Composer
+/composer.lock
+/composer.phar
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+laravel.log
+
+# Testing
+/coverage/
+
+# Deployment
+/.deploy/
+/.github/
+
+# Built assets
+/public/build/
+/public/css/
+/public/js/
+/mix-manifest.json
+
+# Temporary files
+/nbproject/private/
+/.laravel
+
+# Local development
+Homestead.yaml
+Homestead.json
+Vagrantfile
+
+# SSL certificates
+*.crt
+*.key
+*.pem
+
+# Backup files
+*.backup
+*.bak
