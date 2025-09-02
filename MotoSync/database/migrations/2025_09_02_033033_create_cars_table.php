@@ -28,7 +28,7 @@ return new class extends Migration
             $table->longText('description')->nullable();
             $table->timestamp('published_at')->nullable();
             $table->timestamps();
-            $table->timestamp('deteted_at');
+            $table->timestamp('deteted_at')->nullable();
             
         });
     }
