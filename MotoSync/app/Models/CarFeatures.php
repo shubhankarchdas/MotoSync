@@ -11,6 +11,7 @@ class CarFeatures extends Model
 
     public $timestamps = false;
 
+    protected $primaryKey = 'car_id';
 
     protected $fillable = [
         'car_id',
@@ -24,8 +25,8 @@ class CarFeatures extends Model
         'gps_navigation',
         'heated_seats',
         'climate_control',
-        rear_parking_sensors,
-        leather_seats,
+        'rear_parking_sensors',
+        'leather_seats',
 
     ];
 }
